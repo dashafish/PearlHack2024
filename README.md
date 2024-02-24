@@ -1,5 +1,4 @@
 # PearlHack2024
-Gift Genie
 Welcome to Gift Genie, your personal assistant in finding the perfect gift for your loved ones! This chatbot is designed to collect information from users and generate personalized gift ideas based on their input.
 
 ## Introduction
