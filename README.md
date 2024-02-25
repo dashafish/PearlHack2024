@@ -1,6 +1,8 @@
 # PearlHack2024
 Welcome to Gift Genie, your personal assistant in finding the perfect gift for your loved ones! This chatbot is designed to collect information from users and generate personalized gift ideas based on their input.
 
+ALL RIGHTS AND CREATIVE IDEAS ARE RESERVED. 
+
 ## Introduction
 Gift Genie is a web-based chatbot designed to assist users in finding the perfect gift for any occasion. By asking a series of questions, the chatbot gathers information about the recipient's preferences and interests, using this data to suggest thoughtful and personalized gift ideas.
 
