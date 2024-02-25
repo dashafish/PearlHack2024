@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/PearlHack/assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>GG | Personality Test</title>
+    <title>GG | Chat </title>
 </head>
 <body>
     <header>
@@ -23,9 +23,27 @@
             </div>   
         </nav>
     </header>
-    <main>
-        
-    </main>
+        <main class="bodyChat">
+            <div class="chat-container">
+                <main id="chat-interface">
+                    <div class="chat-message bot">
+                        <img src="../assets/images/bot.png" alt="Bot" class="chat-icon">
+                        <p>Hi 👋 I'm Gift Genie Bot, your assistant.</p>
+                    </div>
+                    <div class="chat-options">
+                        <button>Suggest a Gift</button>
+                        <button>Surprise Me</button>
+                        <button>Order Status</button>
+                        <button>Rewards Program</button>
+                        <button>Other Queries</button>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Type your message here...">
+                        <button type="submit"><i class="material-icons">send</i></button>
+                    </div>
+                </main>
+            </div>
+        </main>
     <footer>
         <div>
             &copy; Gift Genie
@@ -34,5 +52,6 @@
             <p> Pearl Hacks 2024 </p>
         </div>
     </footer>
+    <script src="../assets/js/chat.js"></script>
 </body>
 </html>
