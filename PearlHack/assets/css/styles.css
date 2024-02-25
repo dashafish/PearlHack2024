@@ -72,18 +72,6 @@ body {
     text-decoration: none;
 }
 
-.user-nav {
-    width: 15%;
-    margin: auto;
-    text-align: end;
-}
-
-.user-nav a {
-    text-decoration: none;
-    color: rgb(13, 26, 38);
-
-}
-
 .menu a{
     background:
     linear-gradient(
