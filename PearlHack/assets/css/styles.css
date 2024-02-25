@@ -143,11 +143,7 @@ main {
     position: absolute;
 }
 
-/* chat bot*/
-.chat-page {
-   font-family: 'Raleway', sans-serif;
-}
-
+/* chat bot */
 .chat-page * {
    margin: 0;
    padding: 0;
@@ -169,38 +165,6 @@ main {
    padding-top: 60px; /* Height of the header */
 }
 
-.chat-page header {
-   width: 100%;
-   background-color: #ffffff;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0.5em 2em;
-   position: fixed;
-   top: 0;
-   z-index: 1000;
-}
-
-.chat-page #logo img {
-   height: 50px;
-}
-
-.chat-page nav#navbar ul {
-   list-style-type: none;
-   display: flex;
-}
-
-.chat-page nav#navbar ul li {
-   margin: 0 1em;
-}
-
-.chat-page nav#navbar a {
-   text-decoration: none;
-   color: #333;
-   font-weight: bold;
-}
-
 .chat-page .chat-container {
    max-width: 600px;
    height: 540px;
@@ -215,7 +179,6 @@ main {
    flex-direction: column;
 }
 
-
 .chat-page main#chat-interface {
    max-width: 570px;
    margin: 0 auto;
@@ -227,7 +190,6 @@ main {
    height: 493px;
 }
 
-
 .chat-page .chat-input {
    position: absolute;
    bottom: 0;
@@ -236,7 +198,6 @@ main {
    padding: .5em;
    right: 16px;
 }
-
 
 .chat-page .chat-message p {
    font-size: 1rem;
@@ -249,7 +210,6 @@ main {
    margin-bottom: 10px;
 }
 
-
 .chat-page .chat-options button {
    font-size: 1rem;
    margin: 10px;
@@ -261,7 +221,6 @@ main {
    cursor: pointer;
    transition: background-color 0.3s;
 }
-
 
 .chat-page .chat-options button:hover {
     background-color: #0056b3;
@@ -340,18 +299,6 @@ main {
    order: 1;
    background-color: #DCF8C6;
    margin-right: 10px;
-}
-
-
-.chat-page footer {
-   background-color: #ffffff;
-   color: #333;
-   text-align: center;
-   padding: 10px 0;
-   width: 100%;
-   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
-   position: fixed;
-   bottom: 0;
 }
 
 /* quiz */
