@@ -37,6 +37,8 @@ body {
     max-width: 100%;
     border-bottom-left-radius: 24% 20%;
 	border-bottom-right-radius: 52% 30%;
+    border-bottom-style: dashed;
+    border-bottom-color: orange;
 }
 
 #logo-img {
@@ -92,9 +94,10 @@ body {
     ),
     linear-gradient(
       to right,
-      rgb(226, 176, 176),
-      rgba(255, 0, 180, 1),
-      rgb(116, 49, 134)
+      #9bd3f2,
+      #c7b65d,
+      #f3a732, 
+      #ed583f
     );
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
@@ -261,8 +264,6 @@ footer a {
     color: var(--orange);
     margin-left: 600px;
     text-align:center;
-
-
 }
 
 .resultsText{
