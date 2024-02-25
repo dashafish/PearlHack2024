@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       messageDiv.classList.add('chat-message', 'bot');
   
       const botIcon = document.createElement('img');
-      botIcon.src = '../assets/images/bot.png'; 
+      botIcon.src = '../assets/images/bot.jpeg'; 
       botIcon.alt = 'Bot';
       botIcon.classList.add('chat-icon');
   
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.classList.add('chat-message', 'user');
       
         const userIcon = document.createElement('img');
-        userIcon.src = '../assets/images/user.png';
+        userIcon.src = '../assets/images/user.jpeg';
         userIcon.alt = 'User';
         userIcon.classList.add('chat-icon');
       
