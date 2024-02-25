@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/PearlHack/assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>GG | Test Results</title>
+    <title>GG | Personality Test</title>
 </head>
 <body>
     <header>
@@ -21,36 +21,44 @@
                     <!-- <li><a href="../pages/results.html">Results</a></li> -->
                 </ul>  
             </div>   
-            
-            <!-- <div class="mobile-nav">
-                <div class="logo"><a href="../index.html"><img id="logo-img" src="assets/images/giftGenieLogo.png"></a></div>
-                <input type="checkbox">
-                <span class="menu"> <span class="hamburger"></span> </span>
-                <ul>
-                    <li> <a href="#">Home</a> </li>
-                    <li> <a href="#">About</a> </li>
-                    <li> <a href="#">Contact</a> </li>
-                </ul>
-            </div> -->
         </nav>
     </header>
 
-    <main>
-        <div class="main-textResults">
-            <h1 class="resultsHeader">
-                <i class="material-icons">card_giftcard</i>
-                YOUR RESULTS
-            </h1>
+    <div class="quiz-info">
+        <h1 class="quiz-title">Personality Test</h1><br>
+        <p class="quiz-text">Take an online test to discover your personality 
+            type among 16 different types. Learn more about yourself, 
+            explore your strengths, and gain new interesting insights!</p>
+    </div>
+
+    <div class="quiz-container">
+        <div id="question" class="question"></div>
+        <label class="option">
+            <input type="radio" name="option" value="A" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="B" />
+            <span class="option2"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="C" />
+            <span class="option3"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" value="D" />
+            <span class="option4"></span>
+        </label>
+        <div class="controls">
+            <button class="previous">Previous</button>
+            <button class="next">Next</button>
         </div>
-            <div class="resultsDisplay">
-                <p class="resultsText">Your personality style is awesome cutie pie <template id="personalityTemplate"></template></p>
-            </div>
-            <div class="resultsImage">
-            <img id ="resultsImg" src="../assets/images/resultsImgfinalpng.png">
-            </div>
-        <!--- <img id ="resultsImgDupe" src="../assets/images/IMG_6209-removebg-preview.png">-->
-             
-    </main>
+    </div>
+
+    <div class="result">
+
+    <script src="../assets/js/questions.js"></script>
+    <script src="../assets/js/main.js"></script>
 
     <footer>
         <div>
