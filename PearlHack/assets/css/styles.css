@@ -38,7 +38,13 @@ body {
     border-bottom-left-radius: 24% 20%;
 	border-bottom-right-radius: 52% 30%;
     border-bottom-style: dashed;
-    border-bottom-color: orange;
+}
+
+.nav-wrap:after {
+    height: 125px;
+    width: 100%; 
+    background-color: var(--orange);
+
 }
 
 #logo-img {
